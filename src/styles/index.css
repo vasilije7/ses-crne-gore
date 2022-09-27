@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  line-height: 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  visibility: visible;
+  font-family: "Exo", sans-serif;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.upper-section {
+  background-image: url("./images/hero-bg1.webp");
+  position: relative;
+  width: 1550px;
+  height: 810px;
+  background-size: 1650px;
+  background-position: top;
+}
+
+.btn-img img {
+  margin-left: 10px;
+}
+.main-title {
+  width: 500px;
+  height: 500px;
+  margin-top: 160px;
+  margin-left: 190px;
+}
+
+.main-title h1 {
+  text-shadow: 3px 3px 0px #b154f0;
+  color: white;
+  font-size: 40px;
+  font-family: "Russo One", sans-serif;
+  visibility: visible;
+  animation-duration: 1.1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+.main-title #scd-h1 {
+  margin-top: 20px;
+}
+
+.main-title p {
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 55px;
+  color: white;
+  animation-duration: 1.1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+.main-img {
+  float: right;
+  margin-top: 160px;
+  width: 650px;
+  margin-right: 80px;
+  animation-duration: 1.1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+.main-btn {
+  background: url("https://sescg.me/assets/img/others/btn-bg.webp");
+  background-size: 220px;
+  background-repeat: no-repeat;
+  font-size: 19px;
+  width: 220px;
+  height: 80px;
+  border: none;
+  color: white;
+  margin-top: -82px;
+  margin-right: 190px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  margin-top: 25px;
+  text-align: center;
+  animation-duration: 1.1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+.main-img img {
+  margin-left: 10px;
+}
+#main-img {
+  width: 18px;
+}
+
+.lower-section {
+  background-image: url("./images/pozadina-jpg.jpg");
+  height: 3000px;
+  background-size: 1540px 3000px;
+
+  background-repeat: no-repeat;
+  width: 1550px;
+}
+.lower-section h2 {
+  color: white;
+  padding-top: 140px;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  animation-duration: 1.1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+
+.main-baner {
+  margin-left: 170px;
+  margin-top: 100px;
+}
+
+.footer-left {
+  margin-left: 150px;
+  margin-top: 120px;
+}
+.footer-left img {
+  width: 114px;
+  height: 79px;
+  margin-bottom: 30px;
+}
+
+.footer p {
+  color: white;
+  margin-bottom: 30px;
+  line-height: 33px;
+}
+.links {
+  height: 40px;
+  margin-top: 40px;
+}
+.links .facebook {
+  background: url("https://sescg.me/assets/img/icon/facebook-bg.webp");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+  padding-top: 8px;
+}
+
+#facebook-icon {
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding-left: 15px;
+}
+
+.links .twitch {
+  background: url("./images/dribble.webp");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+  padding-top: 8px;
+  margin-left: 15px;
+}
+
+#twitch-icon {
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding-left: 12px;
+}
+
+.links .youtube {
+  background: url("./images/youtobe-bg.webp");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+  padding-top: 8px;
+  margin-left: 15px;
+}
+
+#youtube-icon {
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding-left: 13px;
+  padding-bottom: 5px;
+}
+.links .twitter {
+  background: url("./images/twitter.webp");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+  padding-top: 8px;
+  margin-left: 15px;
+}
+
+#twitter-icon {
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding-left: 14px;
+}
+
+.footer-right {
+  float: right;
+  margin-right: 150px;
+}
+.footer-right h3 {
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-right span {
+  color: #b154f0;
+}
+.footer-right p {
+  font-size: 18px;
+}
+
+.lower-footer {
+  height: 85px;
+  margin-top: 110px;
+  background: #140e38;
+  width: auto;
+}
+.lower-footer p {
+  font-size: 14px;
+  color: #aaa6b9;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 200px;
+  width: 200px;
+  height: 20px;
+  padding-top: 30px;
+}
+.lower-footer p span a {
+  color: #fff;
+  text-decoration: none;
+  width: 20px;
+}
+
+.lower-footer p i {
+  color: #b154f0;
+  font-size: 16px;
+}
+
+.lower-footer p img {
+  width: 25px;
+  height: 30px;
+  padding-bottom: 3px;
+}
+.lower-footer a img {
+  height: 40px;
+  margin-top: -30px;
+
+  margin-left: 720px;
+}

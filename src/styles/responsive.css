@@ -1,0 +1,81 @@
+@media only screen and (max-width: 600px) {
+  .header-logo a img {
+    margin-left: 10px;
+  }
+  .upper-section {
+    background-image: url("./images/hero-bg1.webp");
+    position: relative;
+    width: 600px;
+    height: 540px;
+    background-size: 1100px;
+    background-position: center;
+  }
+
+  .header-btn {
+    display: none;
+  }
+  .hidden-menu {
+    display: block;
+  }
+  .hidden-menu .hr {
+    width: 35px;
+    background-color: #fff;
+    height: 5px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .hidden-menu:hover .hr {
+    background-color: #b154f0;
+    height: 5px;
+    border-top: 1px solid #b154f0;
+    border-bottom: 1px solid #b154f0;
+  }
+
+  .hidden-menu {
+    cursor: pointer;
+    margin-left: 445px;
+    margin-top: -65px;
+  }
+  .text-light {
+    display: none;
+  }
+  .hamburger-open {
+    background-color: white;
+    height: 700px;
+    width: 400px;
+    margin-top: -120px;
+    position: absolute;
+  }
+  .hamburger-open li {
+    padding-top: 10px;
+    list-style: none;
+    margin-left: -20px;
+  }
+  .hamburger-open ul {
+    margin-top: 20px;
+  }
+  .hamburger-open a {
+    color: black;
+    font-weight: 645;
+    text-decoration: none;
+  }
+  .hamburger-open a:hover {
+    color: #b154f0;
+  }
+  .toggler {
+    margin-left: 375px;
+
+    cursor: pointer;
+    font-size: 25px;
+    color: gray;
+  }
+  .hamburger-hr {
+    width: 380px;
+    border-top: 1px solid rgb(238, 235, 235);
+    color: gray;
+    margin-top: 20px;
+    margin-left: -35px;
+  }
+}

@@ -1,0 +1,53 @@
+.lista-vijesti {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.vijesti-kartica {
+  width: 250px;
+  padding-top: 70px;
+  margin-left: 30px;
+}
+.vijesti-kartica a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  font-weight: 650;
+}
+.vijesti-kartica a:hover {
+  color: #b154f0;
+}
+.vijesti-kartica #opsirnije-link:hover {
+  color: #b154f0;
+}
+.vijesti-kartica img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+.vijesti-kartica span {
+  display: block;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vijesti-kartica span i {
+  color: #b154f0;
+  padding-right: 10px;
+}
+
+.kartica-line {
+  width: 30px;
+  height: 2px;
+  background-color: #b154f0;
+  display: inline-block;
+}
+
+#opsirnije-link {
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  padding-left: 40px;
+}

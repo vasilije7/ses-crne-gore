@@ -1,0 +1,85 @@
+.header-logo a img {
+  margin-top: 20px;
+  width: 114px;
+  height: 79px;
+  margin-left: 190px;
+}
+.mx-auto {
+  margin-top: -95px;
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text-light:hover {
+  background-image: url(" file:///C:/Users/Vasilije/Desktop/menu_shape.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(" C:/Users/Vasilije/Desktop/menu_shape.webp");
+  width: 95px;
+  text-align: center;
+  height: 44px;
+}
+#vijesti {
+  width: 100px;
+  text-align: center;
+  height: 45px;
+}
+
+#takmicenja {
+  width: 100px;
+  text-align: center;
+  height: 45px;
+}
+#igrice {
+  width: 100px;
+  text-align: center;
+  height: 45px;
+}
+#partneri {
+  width: 100px;
+  text-align: center;
+  height: 45px;
+}
+#kontakt {
+  width: 100px;
+  text-align: center;
+  height: 45px;
+}
+#onama {
+  width: 100px;
+  text-align: center;
+  height: 45px;
+}
+.navbar-toggler-icon {
+  margin-left: 350px;
+  margin-top: -150px;
+  border-color: lightblue;
+}
+
+.header-btn {
+  background: url("https://sescg.me/assets/img/others/btn-signup.webp");
+  background-size: 160px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  width: 160px;
+  height: 62px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-top: -82px;
+  margin-right: 190px;
+  padding-bottom: 7px;
+}
+header {
+  position: sticky;
+  top: 0;
+}
