@@ -5,7 +5,7 @@ function Header({ headerToggler, setHeaderToggler }) {
   const [hClass, setHclass] = useState("");
   const [render, setRender] = useState(0);
 
-  //Pomocu ovog koda header mijenja pozadinu onScroll
+  //Pomocu ovog koda header mijenja pozadinu onScroll.
   useEffect(() => {
     if (window.scrollY > 2) {
       setHclass("active-header");
