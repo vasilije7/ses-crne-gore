@@ -17,7 +17,7 @@
 }
 
 .text-light:hover {
-  background-image: url(" file:///C:/Users/Vasilije/Desktop/menu_shape.webp");
+  background-image: url("./images/menu_shape.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }

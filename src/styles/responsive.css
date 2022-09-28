@@ -78,4 +78,10 @@
     margin-top: 20px;
     margin-left: -35px;
   }
+  .default-header {
+    position: relative;
+  }
+  .active-header {
+    display: none;
+  }
 }
