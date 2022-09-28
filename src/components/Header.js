@@ -2,19 +2,20 @@ import React, { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link, BrowserRouter as Router } from "react-router-dom";
 function Header({ headerToggler, setHeaderToggler }) {
-  const [hClass, setHclass] = useState("");
-  const [render, setRender] = useState(0);
+  const [hClass, setHclass] = useState("default-header");
+  const [counter, setCounter] = useState(0);
 
-  //Pomocu ovog koda header mijenja pozadinu onScroll.
+  //Pomocu ovog koda header mijenja pozadinu onScroll
   useEffect(() => {
     if (window.scrollY > 2) {
       setHclass("active-header");
-      setRender(render + 1);
+      setCounter(counter + 1);
     } else if (window.scrollY < 2) {
       setHclass("default-header");
-      setRender(render + 1);
+      setCounter(counter + 1);
     }
-  }, [render]);
+  }, [counter]);
+
   //
   return (
     <div>
