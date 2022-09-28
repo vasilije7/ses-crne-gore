@@ -13,6 +13,7 @@
   line-height: 30px;
   text-transform: uppercase;
   color: #ffffff;
+  padding-right: 30px;
 }
 
 .text-light:hover {
@@ -79,7 +80,34 @@
   margin-right: 190px;
   padding-bottom: 7px;
 }
-header {
-  position: sticky;
+/* POTREBNO JE DODATI PROMJENU BG BOJE ONSCROLL */
+.default-header {
+  position: fixed;
   top: 0;
+  width: 1550px;
+}
+
+.active-header {
+  position: fixed;
+  top: 0;
+  width: 1550px;
+  background: rgba(20, 14, 56, 0.9);
+  -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 11%);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 11%);
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 900ms;
+  animation-duration: 900ms;
+  -webkit-animation-timing-function: cubic-bezier(0.2, 1, 0.22, 1);
+  animation-timing-function: cubic-bezier(0.2, 1, 0.22, 1);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
 }
