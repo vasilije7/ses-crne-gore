@@ -1,25 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link, BrowserRouter as Router } from "react-router-dom";
 function Header({ headerToggler, setHeaderToggler }) {
-  const [hClass, setHclass] = useState("default-header");
-  const [counter, setCounter] = useState(0);
+  const [hClass, setHclass] = useState(false);
 
   //Pomocu ovog koda header mijenja pozadinu onScroll
-  useEffect(() => {
-    if (window.scrollY > 2) {
-      setHclass("active-header");
-      setCounter(counter + 1);
-    } else if (window.scrollY < 2) {
-      setHclass("default-header");
-      setCounter(counter + 1);
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setHclass(true);
+    } else {
+      setHclass(false);
     }
-  }, [counter]);
-
-  //
+  };
+  window.addEventListener("scroll", changeBackground);
   return (
     <div>
-      <header className={hClass}>
+      <header className={hClass ? "active-header" : "default-header"}>
         <div className="header-content">
           <div className="header-logo">
             <a className="sticky" href="index.html">

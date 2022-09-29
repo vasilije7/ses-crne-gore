@@ -80,13 +80,13 @@
   margin-right: 190px;
   padding-bottom: 7px;
 }
-/* POTREBNO JE DODATI PROMJENU BG BOJE ONSCROLL */
+
 .default-header {
   position: fixed;
   top: 0;
   width: 1550px;
 }
-
+/* POTREBNO JE DODATI PROMJENU BG BOJE ONSCROLL */
 .active-header {
   position: fixed;
   top: 0;
