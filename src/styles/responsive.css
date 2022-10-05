@@ -1,14 +1,18 @@
 @media only screen and (max-width: 600px) {
   .header-logo a img {
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 90px;
+    height: 60px;
   }
   .upper-section {
     background-image: url("./images/hero-bg1.webp");
     position: relative;
     width: 600px;
-    height: 540px;
-    background-size: 1100px;
-    background-position: center;
+    height: 460px;
+    background-size: 750px 460px;
+    background-position: right;
+    background-repeat: no-repeat;
   }
 
   .header-btn {
@@ -18,7 +22,7 @@
     display: block;
   }
   .hidden-menu .hr {
-    width: 35px;
+    width: 30px;
     background-color: #fff;
     height: 5px;
     border-top: 1px solid rgb(255, 255, 255);
@@ -35,8 +39,8 @@
 
   .hidden-menu {
     cursor: pointer;
-    margin-left: 445px;
-    margin-top: -65px;
+    margin-left: 400px;
+    margin-top: -50px;
   }
   .text-light {
     display: none;
@@ -44,14 +48,18 @@
   .hamburger-open {
     background-color: white;
     height: 700px;
-    width: 400px;
+    width: 350px;
     margin-top: -120px;
     position: absolute;
+    padding-top: 45px;
+    font-size: 12px;
+    z-index: 100;
   }
   .hamburger-open li {
-    padding-top: 10px;
+    padding-top: 5px;
     list-style: none;
     margin-left: -20px;
+    margin-top: 2px;
   }
   .hamburger-open ul {
     margin-top: 20px;
@@ -65,17 +73,16 @@
     color: #b154f0;
   }
   .toggler {
-    margin-left: 375px;
-
+    margin-left: 330px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
   }
   .hamburger-hr {
-    width: 380px;
+    width: 340px;
     border-top: 1px solid rgb(238, 235, 235);
     color: gray;
-    margin-top: 20px;
+    margin-top: 12px;
     margin-left: -35px;
   }
   .default-header {
@@ -83,5 +90,390 @@
   }
   .active-header {
     display: none;
+  }
+  .header-btn {
+    display: block;
+    width: 130px;
+    height: 50px;
+    margin-right: 230px;
+    margin-top: -60px;
+    font-size: 13.5px;
+    background-size: 130px 50px;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    font-weight: 500;
+  }
+  .main-title {
+    position: absolute;
+    padding: 100px;
+    width: auto;
+    margin-left: -50px;
+    height: 300px;
+    width: 500px;
+    margin-top: 0px;
+  }
+  .main-title h1 {
+    font-size: 19px;
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: -25px;
+    margin-top: -15px;
+    margin-bottom: -25px;
+  }
+  .main-title p {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50px;
+    font-weight: 500px;
+    margin-top: -40px;
+  }
+
+  .main-btn {
+    background-size: 175px 55px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    width: 175px;
+    height: 55px;
+    margin-left: 90px;
+    margin-top: 3px;
+    color: white;
+    padding-bottom: 6px;
+
+    text-align: center;
+  }
+  .main-img {
+    width: 230px;
+    margin-right: 255px;
+    margin-top: 175px;
+  }
+  .lower-section {
+    height: 2510px;
+    background-size: 100% 3000px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .lower-section h2 {
+    color: white;
+    font-family: "Exo", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: -25%;
+    margin-top: -100px;
+  }
+  .lista-vijesti {
+    width: 100% !important;
+    margin-left: 20px !important;
+  }
+  .vijesti-kartica {
+    width: 200px !important;
+    margin-left: 10px !important;
+  }
+  .block .vijesti-kartica {
+    width: 200px !important;
+    margin-left: 10px !important;
+  }
+  .vijesti-kartica a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 13.5px !important;
+    font-weight: 650;
+  }
+  .vijesti-kartica img {
+    width: 190px !important;
+    height: 190px !important;
+    border-radius: 5px;
+  }
+  .block {
+    display: flex;
+    margin-top: 430px;
+    margin-left: -415px;
+    height: auto;
+    width: 420px;
+    padding-top: 1.5%;
+  }
+  .vijesti-kartica span {
+    display: block;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .vijesti-kartica span i {
+    padding-right: 10px !important;
+  }
+  .opsirnije {
+    padding-top: 10px !important;
+  }
+  .kartica-line {
+    width: 30px;
+    height: 2px;
+    background-color: #b154f0;
+    display: inline-block;
+  }
+  /*Lista takmicenja styling*/
+  .lista-takmicenja {
+    width: 500px !important;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .takmicenje {
+    width: 420px;
+    height: 190px !important;
+    border: 4px solid #281e4d;
+    background: #09002a;
+    padding: 15px 65px !important;
+    border-radius: 38px;
+    margin-top: 30px;
+    margin-left: -27.5px !important;
+  }
+  .takmicenje a {
+    line-height: inherit;
+    font-size: 16px !important;
+
+    color: white;
+    transition: all 0.3s ease 0s;
+
+    padding-left: 40px !important;
+    width: 600px !important;
+  }
+  .takmicenje p {
+    color: white;
+    padding-left: 42px;
+    font-size: 15px;
+  }
+  .link-prijava a {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .takmicenje a:hover {
+    color: #b154f0;
+  }
+  .takmicenje .location-p {
+    color: #b154f0;
+    font-size: smaller;
+  }
+  .takmicenje i {
+    color: white;
+    font-style: italic;
+    padding-left: 105px !important;
+    font-size: smaller;
+  }
+  .takmicenje-animation {
+    animation-duration: 1.1s;
+    animation-delay: 0.1s;
+    animation-name: fadeInUp;
+  }
+  .takmicenje-1 {
+    border: 4px solid #fbba6e;
+    width: 420px;
+    height: 190px !important;
+    border: 4px solid #281e4d;
+    background: #09002a;
+    padding: 15px 65px !important;
+    border-radius: 38px;
+    margin-top: 30px;
+    margin-left: -27.5px !important;
+  }
+  .takmicenje-1 p {
+    color: white;
+    padding-left: 42px;
+    font-size: 15px;
+  }
+  .takmicenje-1 a {
+    line-height: inherit;
+    font-size: 16px !important;
+    color: white;
+    transition: all 0.3s ease 0s;
+    padding-left: 40px !important;
+  }
+  .prijava-a {
+    margin-left: 35px !important;
+  }
+  .takmicenje-1 a:hover {
+    color: #b154f0;
+  }
+  .takmicenje-1 .location-p {
+    color: #b154f0;
+    font-size: smaller;
+  }
+  .takmicenje-2 {
+    border: 4px solid #fbba6e;
+    width: 420px;
+    height: 210px !important;
+    border: 4px solid #281e4d;
+    background: #09002a;
+    padding: 15px 65px !important;
+    border-radius: 38px;
+    margin-top: 30px;
+    margin-left: -27.5px !important;
+  }
+  .takmicenje-2 p {
+    padding-left: 42px;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .takmicenje-2 a {
+    line-height: inherit;
+    font-size: 15px !important;
+    color: white;
+    transition: all 0.3s ease 0s;
+    padding-left: 45px !important;
+  }
+  .link-prijava a {
+    margin-left: 47px;
+  }
+  .takmicenje-2 a:hover {
+    color: #b154f0;
+  }
+  .takmicenje-2 .location-p {
+    margin-top: 5px;
+    color: #b154f0;
+  }
+  .main-baner img {
+    width: 430px;
+    margin-left: -185px;
+  }
+  .footer-left {
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 130px;
+  }
+  .footer-left img {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+
+  .footer p {
+    color: white;
+    margin-bottom: 30px;
+    line-height: 33px;
+    font-size: smaller;
+  }
+  .links {
+    width: 250px;
+  }
+  .links .facebook {
+    background: url("https://sescg.me/assets/img/icon/facebook-bg.webp");
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 8px;
+  }
+
+  #facebook-icon {
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+  }
+
+  .links .twitch {
+    background: url("./images/dribble.webp");
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 8px;
+    margin-left: 15px;
+  }
+
+  #twitch-icon {
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding-left: 12px;
+  }
+
+  .links .youtube {
+    background: url("./images/youtobe-bg.webp");
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 8px;
+    margin-left: 15px;
+  }
+
+  #youtube-icon {
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding-left: 13px;
+    padding-bottom: 5px;
+  }
+  .links .twitter {
+    background: url("./images/twitter.webp");
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 8px;
+    margin-left: 15px;
+  }
+
+  #twitter-icon {
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding-left: 14px;
+  }
+
+  .footer-right {
+    float: right;
+    width: 200px;
+    padding-left: 20px;
+  }
+  .footer-right h3 {
+    font-size: 17px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .footer-right span {
+    color: #b154f0;
+    font-size: smaller;
+  }
+  .footer-right p {
+    font-size: 14px;
+    margin-top: -7px;
+  }
+
+  .lower-footer {
+    height: 105px;
+    background: #140e38;
+    width: auto;
+  }
+  .lower-footer p {
+    font-size: 13px;
+    color: #aaa6b9;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 135px;
+    width: 200px;
+    height: 20px;
+    padding-top: 15px;
+  }
+  .lower-footer p span a {
+    color: #fff;
+    text-decoration: none;
+    width: 20px;
+  }
+
+  .lower-footer p i {
+    color: #b154f0;
+    font-size: 16px;
+  }
+  .lower-footer {
+    position: bottom;
+  }
+  .lower-footer p img {
+    width: 25px;
+    height: 30px;
+    padding-bottom: 3px;
+  }
+  .lower-footer a img {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 215px;
+  }
+  .footer {
+    height: 210px;
+    margin-top: -20px;
   }
 }

@@ -74,13 +74,11 @@ function Header({ headerToggler, setHeaderToggler }) {
             </div>
           </button>
 
-          {!headerToggler && (
-            <div className="hidden-menu" onClick={() => setHeaderToggler(true)}>
-              <div className="hr"></div>
-              <div className="hr"></div>
-              <div className="hr"></div>
-            </div>
-          )}
+          <div className="hidden-menu" onClick={() => setHeaderToggler(true)}>
+            <div className="hr"></div>
+            <div className="hr"></div>
+            <div className="hr"></div>
+          </div>
         </div>
       </header>
       {headerToggler && (

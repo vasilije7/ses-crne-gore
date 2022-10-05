@@ -20,7 +20,10 @@ function ListaTakmicenja() {
         </a>
         <p className="location-p">BERANE - IVANGRAD STUDIO</p>
         <div className="link-prijava">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAKX7ytRPnNksh7ptxWDereK9NsOyDmGT33f9dGVaDxGCiQw/viewform">
+          <a
+            className="prijava-a"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfAKX7ytRPnNksh7ptxWDereK9NsOyDmGT33f9dGVaDxGCiQw/viewform"
+          >
             klikni za prijavu
           </a>
         </div>

@@ -8,7 +8,6 @@ import "../src/styles/responsive.css";
 import "../src/styles/lista-vijesti.css";
 import "../src/styles/lista-takmicenja.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 //Style imports
 import App from "./App";
 
