@@ -134,12 +134,12 @@ html {
   animation-name: fadeInUp;
 }
 .main-baner {
-  margin-left: 200px;
+  margin-left: auto;
   width: 1300px;
   margin-top: 90px;
 }
 .main-baner img {
-  width: 1300px;
+  width: 1100px;
 }
 
 .footer-left {

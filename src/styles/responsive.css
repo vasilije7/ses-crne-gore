@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   .header-logo a img {
     margin-left: 15px;
     margin-top: 20px;
@@ -149,7 +149,7 @@
   .lower-section {
     height: 2510px;
     background-size: 100% 3000px;
-    width: 100%;
+    width: 600px;
     background-repeat: no-repeat;
   }
   .lower-section h2 {
@@ -162,7 +162,7 @@
   }
   .lista-vijesti {
     width: 100% !important;
-    margin-left: 20px !important;
+    margin-left: 15px !important;
   }
   .vijesti-kartica {
     width: 200px !important;
@@ -217,14 +217,14 @@
     margin-top: 50px;
   }
   .takmicenje {
-    width: 420px;
+    width: 400px !important;
     height: 190px !important;
     border: 4px solid #281e4d;
     background: #09002a;
     padding: 15px 65px !important;
     border-radius: 38px;
     margin-top: 30px;
-    margin-left: -27.5px !important;
+    margin-left: -26.5% !important;
   }
   .takmicenje a {
     line-height: inherit;
@@ -267,14 +267,14 @@
   }
   .takmicenje-1 {
     border: 4px solid #fbba6e;
-    width: 420px;
+    width: 400px !important;
     height: 190px !important;
     border: 4px solid #281e4d;
     background: #09002a;
     padding: 15px 65px !important;
     border-radius: 38px;
     margin-top: 30px;
-    margin-left: -27.5px !important;
+    margin-left: -26.5% !important;
   }
   .takmicenje-1 p {
     color: white;
@@ -300,14 +300,14 @@
   }
   .takmicenje-2 {
     border: 4px solid #fbba6e;
-    width: 420px;
+    width: 400px !important;
     height: 210px !important;
     border: 4px solid #281e4d;
     background: #09002a;
     padding: 15px 65px !important;
     border-radius: 38px;
     margin-top: 30px;
-    margin-left: -27.5px !important;
+    margin-left: -26.5% !important;
   }
   .takmicenje-2 p {
     padding-left: 42px;
@@ -333,7 +333,7 @@
   }
   .main-baner img {
     width: 430px;
-    margin-left: -185px;
+    margin-left: 15px;
   }
   .footer-left {
     margin-left: 30px;
@@ -477,3 +477,4 @@
     margin-top: -20px;
   }
 }
+/* 320PX */
